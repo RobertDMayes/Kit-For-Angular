@@ -47,5 +47,6 @@ import { AppRoutingModule } from './app-routing.module';
       useClass: RouteReusableStrategy,
     },
   ],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
